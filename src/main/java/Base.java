@@ -5,9 +5,7 @@ import java.util.Scanner;
 /**
  * Калькулятор
  *
- * @author Анастасия Вязьмина
- * @version 22.07.2017
- * @since 16.07.2017
+ * @author Tatyana Boyko
  */
 public class Base {
     public static void main(String[] args) {
