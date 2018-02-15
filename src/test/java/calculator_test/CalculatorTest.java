@@ -17,9 +17,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Тест для запросов калькулятора
  *
- * @author Анастасия Вязьмина
- * @version 0.1
- * @since 22.07.2017
+ * @author Tatyana Boyko
  */
 public class CalculatorTest {
     private final ByteArrayOutputStream outContest = new ByteArrayOutputStream();
@@ -52,7 +50,7 @@ public class CalculatorTest {
         assertEquals("Значения не совпадают.", expectedResult, outContest.toString());
     }
 
-    /*@Test
+    @Test
     public void testSelectOperationAdditionPositive() {
         Scanner scanner = null;
         try {
@@ -114,5 +112,5 @@ public class CalculatorTest {
 
         scanner.close();
         assertEquals("Значения не совпадают.", expectedResult, outContest.toString());
-    }*/
+    }
 }
